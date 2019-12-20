@@ -7,6 +7,6 @@ def prime?(integer)
 
 
 
-
+end
 
 
