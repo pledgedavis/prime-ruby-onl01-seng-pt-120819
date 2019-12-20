@@ -1,6 +1,6 @@
 # Add  code here!
 
-def prime(integer)
+def prime?(integer)
 
 integer(1..10)
 
