@@ -8,7 +8,7 @@ def prime?(integer)
      else
         
         
-      a=*(2..integer)
+      a=*(2..integer-1)
         a.each do |number|
           if integer%number == 0
             return false
