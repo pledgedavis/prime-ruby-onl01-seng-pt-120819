@@ -5,8 +5,7 @@ def prime?(integer)
   if integer == 2 
       return true
       
-    else
-      
+   
       
 a=*(2..integer)
   a.each do |number|
