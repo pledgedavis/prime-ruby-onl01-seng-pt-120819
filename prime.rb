@@ -5,12 +5,13 @@ def prime?(integer)
   if integer == 2 
       return true
       
-   
-      
-a=*(2..integer)
-  a.each do |number|
-    if integer%number == 0
-      return false
+     else
+        
+        
+  a=*(2..integer)
+    a.each do |number|
+      if integer%number == 0
+        return false
 
     end
   end
