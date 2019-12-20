@@ -6,7 +6,7 @@ def prime(num)
 
 
 
-
+end
 
 
 
