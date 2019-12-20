@@ -2,11 +2,13 @@
 
 def prime?(integer)
 
-(2..24)
+a=*(2..integer)
+  a.each do |number|
+    if integer%number == 0
+      return false
 
-
-
-
+    end
+  end
 end
 
 
