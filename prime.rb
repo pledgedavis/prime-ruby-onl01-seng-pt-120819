@@ -8,13 +8,13 @@ def prime?(integer)
      else
         
         
-    a=*(2..integer)
-      a.each do |number|
-        if integer%number == 0
-          return false
-  
+      a=*(2..integer)
+        a.each do |number|
+          if integer%number == 0
+            return false
+    
+        end
       end
-    end
   end
 
 
