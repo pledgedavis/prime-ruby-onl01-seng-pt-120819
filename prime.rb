@@ -2,7 +2,7 @@
 
 def prime(integer)
 
-1
+integer(1..10)
 
 
 
